@@ -1,0 +1,42 @@
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 0rem 0rem 0.8rem 0.8rem;
+    background: var(--light-black);
+    padding: 24px 95px 28px;
+}
+
+.Header_nav_ul {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.Header_nav_li {
+    text-decoration: none;
+    color: var(--gray);
+    font-family: IBM Plex Mono, serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.014rem;
+}
+
+.Header_address {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.Header_adress_icon {
+    font-size: 3rem;
+    color: var(--gray);
+}
+
+
+
+

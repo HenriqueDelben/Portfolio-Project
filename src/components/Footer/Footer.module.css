@@ -1,0 +1,23 @@
+.Footer {
+    background: var(--light-black);
+    display: flex;
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer_p {
+    font-size: 1.4rem;
+    color: var(--gray);
+    font-family: IBM Plex Mono, serif;
+    font-weight: 400;
+    letter-spacing: 0.014rem;
+
+    margin: auto;
+}
+
+.Footer_p_icon {
+    color: red;
+}

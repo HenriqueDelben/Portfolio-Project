@@ -1,0 +1,14 @@
+.Card {
+    border-radius: 0.6rem;
+    border: 1px solid var(--light-black);
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card_img {
+    width: 70%;
+    height: 70%;
+}

@@ -1,0 +1,19 @@
+.Flag {
+    border-radius: 6rem;
+    background: var(--light-pink);
+    text-align: center;
+    width: 7.2rem;
+    height: 2.4rem;
+    color: var(--yellow);
+    padding: 0 1px;
+}
+
+.Flag___lightGreen {
+    background-color: var(--light-light-green);
+    color: var(--light-green);
+}
+
+.Flag___blue {
+    background-color: var(--light-blue);
+    color: var(--blue);
+}

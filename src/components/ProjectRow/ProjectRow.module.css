@@ -1,0 +1,46 @@
+.ProjectCard {
+    display: flex;
+    gap: 2.6rem;
+}
+
+.ProjectCard_contentWrapper {
+    flex-grow: 1;
+    flex-basis: 42.1rem;
+    flex-shrink: 1;
+
+    padding-top: 2.7rem;
+    padding-bottom: 1.7rem;
+}
+
+.ProjectCard_content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    gap: 4rem;
+}
+
+.ProjectCard_content_heading {
+    margin-top: -2rem;
+}
+
+.ProjectCard_content_heading_h1 {
+    margin-bottom: 1rem;
+}
+
+.ProjectCard_content_heading_p {
+    composes: SectionHeader_p from '../SectionHeader/SectionHeader.module.css';
+}
+
+.ProjectCard_imgWrapper {
+    flex-basis: 44.5rem;
+    height: 30rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.ProjectCard_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

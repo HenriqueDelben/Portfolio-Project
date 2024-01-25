@@ -1,0 +1,65 @@
+.Button {
+    display: flex;
+    border-radius: 0.4rem;
+    padding: 2.1rem 6.4rem;
+    gap: 1rem;
+
+    /* default color */
+    background-color: var(--green);
+    border: 1px solid #62BA1B;
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
+
+    /* default font settings */
+    font-family: "IBM Plex Mono", serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    text-align: center;
+}
+
+.Button_text {
+    display: block;
+    width: 100%;
+}
+
+/* Color Variations */
+.Button .Button_text {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.Button___yellow {
+    border: initial;
+    background: var(--yellow);
+    box-shadow: 0px 8px 30px 0px rgba(42, 176, 144, 0.10);
+}
+
+.Button___blue {
+    border: initial;
+    background: var(--blue);
+    box-shadow: 0px 8px 30px 0px rgba(0, 10, 255, 0.10);
+}
+
+.Button___lightGreen {
+    border: initial;
+    background: var(--light-green);
+    box-shadow: 0px 8px 30px 0px rgba(42, 176, 144, 0.10);
+}
+
+/* Size Variations */
+.Button___small {
+    width: 18.9rem;
+    height: 3.8rem;
+    padding: 1rem 2.4rem;
+    border: 0;
+}
+
+.Button___medium {
+    padding: 1.6rem 2.4rem;
+}
+
+.Button___small, .Button___medium {
+   font-size: 1.4rem;
+}
+
+/*TODO colocar as fontes corretamente*/
