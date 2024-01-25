@@ -1,0 +1,64 @@
+.HomeSection {
+    display: grid;
+    grid-template-columns: minmax(53.8rem, 2fr) minmax(35rem, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 5.7rem;
+    grid-column-gap: 3.2rem;
+
+    background-color: var(--black);
+    padding-bottom: 4.5rem;
+}
+
+.HomeSection_headerContainer {
+    grid-column: span 3;
+    width: 87%;
+    justify-self: center;
+}
+
+.HomeSection_sectionContent {
+    margin-top: 7.4rem;
+}
+
+.HomeSection_sectionHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: flex-start;
+
+    gap: 3rem;
+    padding-left: 18rem;
+    padding-right: 46px;
+}
+
+.HomeSection_imgContainer {
+    max-width: 48.5rem;
+    margin-top: 2.3rem;
+    padding-right: 10rem;
+}
+
+.HomeSection_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.HomeSection_cardsContainer {
+    grid-column: span 3;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.HomeSection_cardsContainer p {
+    color: var(--white);
+}
+
+.HomeSection_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 3rem 3rem;
+}
