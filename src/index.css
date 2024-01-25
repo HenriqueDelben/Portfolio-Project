@@ -10,6 +10,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --light-black: #1B1B1B;
+  --gray: #9C9C9C;
+  --black: #080808;
+  --green: #3F8E00;
+  --yellow: #FFA217;
+  --blue: #000AFF;
+  --light-green: #2AB090;
+  --light-light-green: #E0FFF8;
+  --white: #FFF;
+  --light-pink: #FFF6E9;
+  --light-blue: #D0E6FF;
+
+  --ibm-plex-mono-font: "IBM Plex Mono, sans-serif";
 }
 
 body {
