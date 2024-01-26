@@ -8,14 +8,8 @@
 
 .SectionHeader_h1 {
     font-family: Raleway, sans-serif;
-    font-size: 3.4rem;
     font-weight: 800;
-    color: var(--white);
-}
-
-.SectionHeader___black .SectionHeader_h1{
-    color: var(--black);
-}
+   }
 
 .SectionHeader_p {
     color: var(--gray);
@@ -25,4 +19,28 @@
     font-weight: 400;
     line-height: 2.4rem; /* 171.429% */
     letter-spacing: 0.014rem;
+}
+
+.SectionHeader___black .SectionHeader_h1{
+    color: var(--black);
+}
+
+.SectionHeader___white .SectionHeader_h1{
+    color: var(--white);
+}
+
+.SectionHeader___left {
+    text-align: left;
+}
+
+.SectionHeader___center {
+    text-align: center;
+}
+
+.SectionHeader___normal .SectionHeader_h1 {
+    font-size: 6.8rem;
+}
+
+.SectionHeader___small .SectionHeader_h1 {
+    font-size: 3.4rem;
 }
