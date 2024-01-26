@@ -1,7 +1,6 @@
 .SectionHeader_h1Container {
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: left;
     margin-right: 6.6rem;
     margin-bottom: 1rem;
 }
@@ -29,11 +28,11 @@
     color: var(--white);
 }
 
-.SectionHeader___left {
+.SectionHeader___left .SectionHeader_h1Container, .SectionHeader___left .SectionHeader_left {
     text-align: left;
 }
 
-.SectionHeader___center {
+.SectionHeader___center .SectionHeader_h1Container, .SectionHeader___center .SectionHeader_p {
     text-align: center;
 }
 
